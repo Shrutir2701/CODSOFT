@@ -4,10 +4,10 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing:initial;
+  box-sizing:border-box;
   font-family: "Nata Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <500>;
+  font-weight: 500;
   font-style: normal;
 
 }
@@ -18,19 +18,19 @@ body{
   display:grid;
   justify-content: center;
   align-items: center;
-  background-color: linear-gradient(60deg, #040404, #383737);
+  background: linear-gradient(0deg, #040404, #383737);
 }
-.calculTOR
+.calculator
 {
-  border: 1px solid #b1ddac;
-  padding: 20px;
+  border: 2px solid #393c3d;
+  padding: 30px;
   border-radius: 20px;
   background: transparent;
- box-shadow: 0px 3px 15px rgb(204, 239, 239 0.5);
+ box-shadow: 0px 3px 15px rgba(64, 71, 71, 0.5);
 
 }
 input{
-  width: 220%;
+  width: 100%;
   border-radius: 16px;
   border: none;
   margin: 10px;
@@ -39,21 +39,21 @@ input{
   font-size: 40px;
   text-align: right;
   cursor: pointer;
-  color: #85bbe7;
+  color: #e2ebf3;
 
 }
 input::placeholder{
-  color: #85bbe7;
+  color: #eaeff3;
 
 }
 button{
   border: none;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   margin: 5px;
-  border-radius: 30px;
+  border-radius: 60px;
   background-color: rgb(204, 239, 239);
-  font-size: medium;
+  font-size: larger;
   box-shadow: 2px 3px 20px -7px rgba(28, 55, 226, 16);
   cursor: pointer;
 }
@@ -63,5 +63,5 @@ button{
 }
 .operator{
   color: #ee4507;
-  font-size: larger;
+  font-size: 30px;
 }

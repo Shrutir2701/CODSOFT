@@ -1,5 +1,5 @@
 let input = document.getElementById('inputbox');
-let button = documen.querySelectorAll('button');
+let button = document.querySelectorAll('button');
 
 let string = "";
 let arr= Array.from(button);
